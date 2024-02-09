@@ -3,7 +3,6 @@ const morgan = require('morgan');
 
 const tourRouter = require(`${__dirname}/Routes/tourRoutes`);
 const userRouter = require(`${__dirname}/Routes/userRoutes`);
-
 const app = express();
 
 // console.log();
